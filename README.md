@@ -1,3 +1,5 @@
+[![🛡️ License: MIT 🟡](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # 📝 wordpad-installer
 A simple WordPad installer to bring the lightweight text editor back to newer systems!
 
