@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WordPad Installer 📄✨</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-indigo-700 text-white py-6">
+    <div class="container mx-auto text-center">
+      <h1 class="text-4xl font-bold">WordPad Installer 📄✨</h1>
+      <p class="text-lg mt-2">Bring back the classic WordPad experience — portable & installer versions</p>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container mx-auto py-10 px-4">
+
+    <!-- Project Info Card -->
+    <section class="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow hover:shadow-md transition text-center">
+      <p class="text-gray-700 mb-6">
+        This project restores WordPad to modern Windows systems with both a quick <strong>portable</strong> option and a <strong>full installer</strong>.
+      </p>
+      
+      <div class="space-y-3 text-left max-w-md mx-auto">
+        <p>🔹 <strong>Portable version</strong> — extracts to <code>%TEMP%</code> for quick use.</p>
+        <p>🔹 <strong>Installer version</strong> — adds WordPad permanently.</p>
+      </div>
+
+      <a href="https://github.com/SpeedyCoder1192/wordpad-installer/releases/latest" target="_blank" class="mt-6 inline-block bg-indigo-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-indigo-500 transition">
+        ⬇ Download Now
+      </a>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-indigo-700 text-white text-center py-4">
+    <p>&copy; <span id="year"></span> SpeedyCoder1192 • MIT License</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
