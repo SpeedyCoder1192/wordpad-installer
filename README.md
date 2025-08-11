@@ -1,46 +1,45 @@
-[![🛡️ License: MIT 🟡](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# 🌐 WordPad Installer — Website
 
-# 📝 wordpad-installer
-A simple WordPad installer to bring the lightweight text editor back to newer systems!
+[![GitHub Repo](https://img.shields.io/badge/Main%20Repo-GitHub-181717?logo=github)](https://github.com/SpeedyCoder1192/wordpad-installer)
+[![Website](https://img.shields.io/badge/Live%20Site-Click%20Here-blue?logo=google-chrome)](https://speedycoder1192.github.io/wordpad-installer/)
 
-## 🚀 Overview
+This is the official **website** for the [WordPad Installer](https://github.com/SpeedyCoder1192/wordpad-installer) project.
 
-This installer was created to address a growing issue with newer Windows updates where the classic **WordPad** application has been removed or is no longer included by default. For users who miss this simple and useful text editor, this installer provides an easy way to restore WordPad on your system.
-
-## ⚙️ What It Does
-
-- 📂 Copies the WordPad executable and its associated `en-US` language folder into `C:\Program Files\WordPad`.
-- 🖥️ Creates a shortcut to WordPad in the Windows Start Menu for easy access.
-- 🗑️ Provides an **Uninstall WordPad** shortcut to completely remove WordPad and clean up shortcuts.
-- 🧹 Cleans up installation files after completion.
-
-## 🧳 Portable Edition
-
-A **Portable edition** of this installer is also available, which extracts all files to the system’s temporary folder (`%TEMP%`) instead of `Program Files`.  
-This means the files are stored in a temporary location that is cleaned up automatically after use.  
-It allows you to use WordPad without installation or admin rights, making it ideal for quick testing, running on restricted systems, or carrying on a USB drive without leaving traces on the host computer.
-
-## ℹ️ Important Notes
-
-- 📦 This installer is packaged as a **Self-Extracting Archive (SFX)** for simple distribution.
-- 🔒 Administrative privileges are required for full installation (except the Portable edition).
-- 📜 The source code of the installer script is uploaded alongside this project if you wish to review or customize it.
-
-## 🎯 Usage
-
-1. ▶️ Run the installer as Administrator (except Portable edition).
-2. ✔️ Follow any prompts during installation.
-3. 🏃‍♂️ Access WordPad from your Start Menu after installation.
-4. 🧹 Use the **Uninstall WordPad** shortcut in the Start Menu to remove it.
-
-## 🤔 Why This Was Made
-
-Microsoft’s recent Windows updates have removed WordPad from some editions, causing inconvenience for users who rely on it for lightweight text editing without installing third-party software. This project restores WordPad quickly and cleanly, keeping your system simple and familiar.
+> 📝 A simple installer (and portable edition) to restore WordPad on newer Windows systems.
 
 ---
 
-If you have any questions, issues, or suggestions, feel free to open an issue or contribute! 💬
+## 📖 About the Project
+
+WordPad Installer was created to bring back the classic **WordPad** text editor to systems where Microsoft has removed it.  
+It offers both a **full installation** and a **portable edition**, allowing you to choose between permanent installation or temporary use without leaving traces.
+
+Features include:
+
+- 📂 Copies WordPad executable & language files to `C:\Program Files\WordPad`
+- 🖥️ Creates Start Menu shortcut
+- 🗑️ Includes “Uninstall WordPad” shortcut
+- 🧹 Cleans up installation files
+- 💼 Portable edition runs without admin rights and removes itself after use
 
 ---
 
-🙏 *Thank you for using this installer!*
+## 📂 Repo Structure
+
+| File/Folder      | Purpose                              |
+|------------------|---------------------------------------|
+| `index.html`     | Main website page                    |
+| `README.md`      | This file                            |
+| `releases/`      | (On main repo) Installer downloads   |
+
+---
+
+## 🤝 Contribute
+
+Have feedback or suggestions for the site? Open an issue or submit a pull request!
+
+---
+
+## ⚖ License
+
+MIT License. See the [main project repo](https://github.com/SpeedyCoder1192/wordpad-installer/blob/main/LICENSE) for details.
